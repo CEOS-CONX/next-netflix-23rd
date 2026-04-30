@@ -36,17 +36,17 @@ export default function Featured() {
         {/* Top 10 배지 영역 (임의로 #2 설정) */}
         <div className="mb-5 flex items-center gap-1.5">
           <Image src="/assets/icons/ic-top10.svg" alt="TOP 10" width={24} height={24} />
-          <span className="text-body2 font-bold tracking-tight text-white">#2 in Korea Today</span>
+          <span className="text-body2 font-bold tracking-tight text-white">#1 in Korea Today</span>
         </div>
 
         {/* 버튼 그룹 */}
         <div className="flex w-full items-center justify-center gap-10 px-10">
           <button className="flex flex-col items-center gap-1 text-white">
             <Image src="/assets/icons/ic-add.svg" alt="My List" width={24} height={24} />
-            <span className="text-[12px] font-medium">My List</span>
+            <span className="text-caption1">My List</span>
           </button>
 
-          <button className="flex items-center justify-center gap-2 rounded-md bg-white px-8 py-2 text-black transition-transform active:scale-95">
+          <button className="bg-grey-600 flex items-center justify-center gap-2 rounded-md px-8 py-2 text-black transition-transform active:scale-95">
             <Image
               src="/assets/icons/ic-play.svg"
               alt="Play"
@@ -59,7 +59,7 @@ export default function Featured() {
 
           <button className="flex flex-col items-center gap-1 text-white">
             <Image src="/assets/icons/ic-info.svg" alt="Info" width={24} height={24} />
-            <span className="text-[12px] font-medium">Info</span>
+            <span className="text-caption1">Info</span>
           </button>
         </div>
       </div>
