@@ -63,5 +63,6 @@
   );
 
   /* z-index system */
+  --z-index-nav: 50;
   --z-index-splash: 100;
 }
