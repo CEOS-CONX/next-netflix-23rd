@@ -61,4 +61,8 @@
     rgba(0, 0, 0, 0) 87%,
     #000 100%
   );
+
+  /* z-index system */
+  --z-index-nav: 50;
+  --z-index-splash: 100;
 }

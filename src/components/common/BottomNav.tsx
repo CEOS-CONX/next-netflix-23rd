@@ -15,7 +15,7 @@ export default function BottomNav() {
   const pathname = usePathname();
 
   return (
-    <nav className="bg-grey-900 fixed right-0 bottom-0 left-0 z-50 w-full">
+    <nav className="bg-grey-900 z-nav fixed right-0 bottom-0 left-0 w-full">
       <div className="flex items-center justify-around py-5">
         {NAV_ITEMS.map((item) => {
           const isActive = pathname === item.href;

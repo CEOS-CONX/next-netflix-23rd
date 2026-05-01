@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function TopNav() {
   return (
-    <nav className="fixed top-0 z-50 w-full bg-transparent">
+    <nav className="z-nav fixed top-0 w-full bg-transparent">
       <div className="flex items-center justify-between px-7 py-3">
         <div className="flex items-center gap-6">
           <Image src="/assets/icons/ic-netfilx.svg" alt="Netflix" width={56} height={56} />
